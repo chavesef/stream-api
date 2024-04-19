@@ -45,6 +45,5 @@ public class StreamTest08 {
                 .collect(Collectors.groupingBy(Esporte::getCategoria));
         System.out.println(collect);
         System.out.println(Runtime.getRuntime().availableProcessors());
-
     }
 }
